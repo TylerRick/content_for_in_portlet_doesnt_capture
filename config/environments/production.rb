@@ -26,3 +26,6 @@ config.action_view.cache_template_loading            = true
 
 # Enable threaded mode
 # config.threadsafe!
+SITE_DOMAIN="localhost:3000"
+config.action_view.cache_template_loading = false
+config.action_controller.page_cache_directory = RAILS_ROOT + "/public/cache/"
