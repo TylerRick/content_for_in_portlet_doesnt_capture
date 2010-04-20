@@ -1,9 +1,9 @@
 This is app/views/home/index.html.erb.
 
 <%# debugger %>
-<% content_for :main do %>
+<% $d = true; content_for :main do %>
   <% content_for :head do %>
     for head
   <% end %>
   for main
-<% end %>
+<% end; $d = false %>
